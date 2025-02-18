@@ -82,3 +82,9 @@ static func assert_not_in(element: Variant, collection, msg := "") -> void:
         print_rich("    [b][color=red]✖ Assertion Failed:[/color][/b] %s found in collection %s %s" % [element, collection, msg])
     else:
         print_rich("    [b][color=light_green]✔ Assertion Passed:[/color][/b] %s is not in collection" % element)
+
+static func assert_is_type(type: Variant, instance: Variant, msg := "") -> void:
+    if not is_instance_of(type, instance):
+        print_rich("    [b][color=red]✖ Assertion Failed:[/color][/b] %s is not of type %s %s" % [instance, type_string(typeof(type)), msg])
+    else:
+        print_rich("    [b][color=light_green]✔ Assertion Passed:[/color][/b] %s is of type %s %s" % [instance, type_string(typeof(type)), msg])
