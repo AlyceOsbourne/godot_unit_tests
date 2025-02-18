@@ -81,7 +81,6 @@ Test results are displayed in the Godot console with rich text formatting:
 ## Notes
 - Tests run only in the editor (`Engine.is_editor_hint()` is checked).
 - If no tests are found, a message is displayed.
-- Execution time and failure summaries can be added if needed.
 
 ## License
 This framework is free to use and modify. Contributions are welcome!
