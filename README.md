@@ -5,6 +5,7 @@
 
 ## Installation
 Simply add the `unit_test` folder to your `addons` folder (creating it in the root of your project if it does not exist).
+You can then enable the plugin in the editors plugin settings. You can see how in the [Godot docs](https://docs.godotengine.org/en/stable/tutorials/plugins/editor/installing_plugins.html).
 
 ## Features
 - **Automatic Test Discovery**: Runs all methods prefixed with `test_`.
