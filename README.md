@@ -4,7 +4,7 @@
 `UnitTest` is a lightweight testing framework for Godot, designed to automate unit testing of GDScript classes. It provides structured test discovery, assertion methods, and rich text output in the Godot console.
 
 ## Installation
-Simply add the `UnitTest.gd` script to your Godot project and extend it in your test classes.
+Simply add the `unit_test` folder to your `addons` folder (creating it in the root of your project if it does not exist).
 
 ## Features
 - **Automatic Test Discovery**: Runs all methods prefixed with `test_`.
